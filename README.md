@@ -1,2 +1,2 @@
 # Java
-Repositório criado para execução de um curso Java
+Repository Java Course | DevDojo Academy!
