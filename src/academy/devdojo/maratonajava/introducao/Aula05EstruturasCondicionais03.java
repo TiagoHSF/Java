@@ -6,7 +6,7 @@ public class Aula05EstruturasCondicionais03 {
         double salario = 5500;
         // (condicao) ? verdadeiro : falso;
 
-        String resultado = salario > 5000 ?  "Eu vou doar 500 pro DevDojo" : "Ainda não tenho condições";
+        String resultado = salario > 5000 ?  "Eu vou doar 500 pro DevDojo" : "Ainda não tenho condições!";
 
         System.out.println(resultado);
     }
