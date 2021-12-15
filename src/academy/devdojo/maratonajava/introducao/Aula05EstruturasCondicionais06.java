@@ -35,7 +35,7 @@ public class Aula05EstruturasCondicionais06 {
                 System.out.println("Final de semana");
                 break;
             default:
-                System.out.println("Dia inserido inválido");
+                System.out.println("Dia inserido inválido!");
         }
     }
 }
