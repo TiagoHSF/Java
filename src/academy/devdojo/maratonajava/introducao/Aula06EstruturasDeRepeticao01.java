@@ -13,7 +13,7 @@ public class Aula06EstruturasDeRepeticao01 {
         } while (count < 10);
 
         for (int i=0; i < 10; i++) {
-            System.out.println("For... "+i);
+            System.out.println("For.. "+i);
         }
     }
 }

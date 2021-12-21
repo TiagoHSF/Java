@@ -26,7 +26,7 @@ public class Aula05EstruturasCondicionais06 {
                 System.out.println("Final de Semana");
                 break;
             default:
-                System.out.println("Dia inválido!");
+                System.out.println("Dia inválido");
                 break;
         }
     }
