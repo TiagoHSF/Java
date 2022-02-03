@@ -1,7 +1,24 @@
 package academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain;
 
 public class Pessoa {
-    public String nome;
-    public int idade;
-    
+    private String nome;
+    private int idade;
+
+    public void imprime(){
+        System.out.println(this.nome)
+        System.out.println(this.idade)
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade){
+        if(idade < 0){
+            System.out.println("Idade inválida")
+            return;
+        }
+        this.idade = idade;
+    }
+
 }
