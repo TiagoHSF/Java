@@ -10,7 +10,7 @@ public class Pessoa {
     }
 
     public void setNome(String nome){
-        this.nome = nome;
+        return this.nome = nome;
     }
 
     public void setIdade(int idade){
@@ -18,7 +18,15 @@ public class Pessoa {
             System.out.println("Idade inválida")
             return;
         }
-        this.idade = idade;
+        return this.idade = idade;
+    }
+
+    public String getNome(){
+        return this.nome;
+    }
+
+    public int getIdade() {
+        return this.idade;
     }
 
 }

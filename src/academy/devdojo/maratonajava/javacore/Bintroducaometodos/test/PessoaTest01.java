@@ -8,6 +8,8 @@ public class PessoaTest01 {
       //  pessoa.nome("Tiago")
         pessoa.setNome("Tiago")
         pessoa.setIdade(19)
-        pessoa.imprime()
+     //   pessoa.imprime()
+     System.out.println(pessoa.getNome());
+     System.out.println(pessoa.getIdade());
     }
 }
