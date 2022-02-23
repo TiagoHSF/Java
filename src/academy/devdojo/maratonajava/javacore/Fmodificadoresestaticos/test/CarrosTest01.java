@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Fmodificadoresestaticos.test;
 
+import academy.devdojo.maratonajava.javacore.Fmodificadoresestaticos.domain.Carros;
+
 public class CarrosTest01 {
     public static void main(String[] args){
         Carros.setVelocidadeLimite(180); 
