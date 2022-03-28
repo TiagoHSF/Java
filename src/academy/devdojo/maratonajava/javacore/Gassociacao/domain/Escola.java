@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.javacore.Gassociacao.domain;
 
-import academy.devdojo.maratonajava.javacore.Gassociacao.domain
-
 public class Escola {
     private String nome;
     private Professor[] professores;
@@ -10,18 +8,18 @@ public class Escola {
         this.nome = nome;
     }
 
-    public Escola(String nome, Professor[] professores){
+    public Escola(String nome, Professor[] professores) {
         this.nome = nome;
-        this.professores = professores; 
+        this.professores = professores;
     }
 
-    public void imprime(){
+    public void imprime() {
         System.out.println(this.nome);
-        if(professores == null) {
+        if (professores == null) {
             return;
         }
-        for (Professor professor : professores){
-            System.out.println(professor.getNome())
+        for (Professor professor : professores) {
+            System.out.println(professor.getNome());
         }
     }
 
