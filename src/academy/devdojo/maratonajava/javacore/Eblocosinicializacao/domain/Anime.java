@@ -4,25 +4,27 @@ public class Anime {
     private String nome;
     private int[] episodios;
     // 1 - Alocado Espaço em memória
-    // 2 - Cada atributo é criado e inicializado com valores default ou valores passados
+    // 2 - Cada atributo é criado e inicializado com valores default ou valores
+    // passados
     // 3 - Bloco de inicialização
     // 4 - Construtor
     {
-        System.out.println("Dentro do bloco de inicialização")
+        System.out.println("Dentro do bloco de inicialização");
         episodios = new int[100];
-        for(int i=0; i < episodios.length; i++){
-            episodios[i] = i+1;
+        for (int i = 0; i < episodios.length; i++) {
+            episodios[i] = i + 1;
         }
     }
-    public Anime(String nome){
+
+    public Anime(String nome) {
         this.nome = nome;
     }
 
-    public Anime(){
-        for(int episodios: this.episodios){
+    public Anime() {
+        for (int episodios : this.episodios) {
             System.out.print(episodios + " ");
         }
-        System.out.println()
+        System.out.println();
     }
 
     public String getNome() {
