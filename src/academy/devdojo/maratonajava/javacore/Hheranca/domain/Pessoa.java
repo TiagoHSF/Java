@@ -5,6 +5,10 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
     public void imprime() {
         System.out.println(this.nome + " " + this.cpf);
         System.out.println(this.endereco.getRua() + " " + this.endereco.getCep());
